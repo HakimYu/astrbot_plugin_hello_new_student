@@ -1,0 +1,27 @@
+{
+  "is_send_welcome": {
+    "description": "是否发送欢迎消息",
+    "type": "bool",
+    "default": true
+  },
+  "is_at": {
+    "description": "是否@新成员",
+    "type": "bool",
+    "default": false
+  },
+  "welcome_text": {
+    "description": "欢迎词",
+    "type": "text",
+    "default": "欢迎新成员加入！"
+  },
+  "welcome_groups": {
+    "description": "需要发送欢迎消息的群聊列表",
+    "type": "list",
+    "default": []
+  },
+  "monitor_groups": {
+    "description": "需要监控的群聊列表",
+    "type": "list",
+    "default": []
+  }
+}
